@@ -1,0 +1,37 @@
+<DOCTYPE HTML>
+    <HTML>
+        <HEAD>
+            <META charset="UTF-8">
+            <TITLE>Utilizando formulário com CSS</TITLE>
+            <LINK REL="STYLESHEET" href="estiloformulariocss.css" >
+        </HEAD>
+<BODY>
+    <FORM NAME="MeuForm" method="post">
+        <DIV Class="box">
+            <H1>Formulário de Contato :</H1>
+
+            <LABEL>
+                <SPAN>Nome completo</SPAN>
+                <INPUT TYPE="TEXT" CLASS="INPUT_TEXT" NAME="NOME"/>
+            </LABEL>
+
+            <LABEL>
+                <SPAN>Email</SPAN>
+                <INPUT TYPE="TEXT" CLASS="INPUT_TEXT" NAME="EMAIL"/>
+            </LABEL>
+
+            <LABEL>
+                <SPAN>Assunto:</SPAN>
+                <INPUT TYPE="TEXT" CLASS="INPUT_TEXT" NAME="ASSUNTO">
+            </LABEL>
+
+            <LABEL>
+                <SPAN>Mensagem</SPAN>
+                <TEXTAREA CLASS="message" name="feedback"></TEXTAREA>
+                <INPUT TYPE="BUTTON" CLASS="BUTTON" VALUE="ENVIAR">
+            </LABEL>
+        </DIV>
+
+    </FORM>
+</BODY>
+</HTML>

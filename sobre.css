@@ -1,0 +1,79 @@
+/*Padding-top, padding-right, padding-bottom e padding-left*
+A propriedade padding é utilizada para definir um espaçamento interno em alguns elementos
+(por espaçamento interno queremos dizer a distância entre o limite do elemento, sua borda, 
+e seu respectivo conteúdo)
+Se passado somento um valor para propriedade padding, esse mesmo valor é aplicado em todas as direções.
+Se passado dois anos,o primeiro será aplicado a cima e abaixo (equivalente a passar o mesmo valor para padding-top e padding-bottom)
+e o segundo será aplicado a direita e a esquerda (equivalente ao mesmo valor para padding-right e padding-left).*/
+
+/*A propriedade margin é bem parecida com a propreidade padding, exceto que ela adiciona espaço após o limite
+do elemento, ou seja, é um espaçamento além do elemento em si. Além das subpropriedades listadas a seguir, Há 
+a shorthand property margin, que se comporta da mesma maneira  que a shorthand property do padding vista no
+tópico anterior*/
+
+/*Para o elemento <body>, alterar a sua cor e sua fonte base por meio das propriedades color e font-family*/
+
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Unicode", "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*O Título principal deve ter um fundo estampado com a imagem img/sobre-background.jpg.
+Use a propriedade background-image pra isso. Borda sutil nos subtitulos, para ajudar a
+separar o conteudo.*/
+
+h1{
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
+}
+
+h2{
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+}
+
+P{
+    padding: 0  45px;
+    text-indent: 15px;
+}
+
+/*Acerte também a renderização das figuras, Fundo cinza, borda sutil, legenda em italico
+com fonte style e alinha a imagem e a legenda no centro com text-aling.*/
+
+figure{
+    background-color: #F2EDED;
+    border: 1px solid #ccc; /*Algumas possibilidades: dashed, dotted, double, groove e outros */
+    text-align: center; /*text-align tambem pode ser left, right, justify. */
+    padding: 15px;
+    margin: 30px;
+}
+
+#centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#rodape{
+    color:#777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+}
